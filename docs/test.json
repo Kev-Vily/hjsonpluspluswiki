@@ -1,0 +1,21 @@
+{
+    "id": "test",
+
+    "fields": [
+        {
+            "name": "goida",
+            "type": "integer",
+            "note": "notes.goida"
+        },
+        {
+            "name": "67",
+            "type": "69",
+            "note": "notes.67"
+        },
+        {
+            "name": "meow",
+            "type": "Class",
+            "note": "notes.meow"
+        }
+    ]
+}
