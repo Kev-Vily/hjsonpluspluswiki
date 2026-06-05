@@ -1,19 +1,19 @@
 const LANGUAGES = [
     {
         id: "en",
-        name: "Пендоская"
+        name: "English"
     },
     {
         id: "ru",
-        name: "Кацапская"
+        name: "Р СѓСЃСЃРєРёР№"
     },
     {
         id: "be",
-        name: "Беларуская (Bielaruskaja)"
+        name: "Р‘РµР»Р°СЂСѓСЃРєР°СЏ (Bielaruskaja)"
     },
     {
         id: "ua",
-        name: "Хохляцкая"
+        name: "РЈРєСЂР°С—РЅСЃСЊРєР°"
     },
     {
         id: "id",
