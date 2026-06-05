@@ -3,7 +3,7 @@ let bundle = {};
 async function loadBundle(lang){
 
     const response =
-        await fetch(`bundles/${lang}.properties`);
+        await fetch(`bundles/bundle_${lang}.properties`);
 
     const text = await response.text();
 

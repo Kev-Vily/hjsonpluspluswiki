@@ -2,6 +2,22 @@ const LANGUAGES = [
     {
         id: "en",
         name: "English"
+    },
+    {
+        id: "ru",
+        name: "Русский"
+    },
+    {
+        id: "be",
+        name: "Беларуская"
+    },
+    {
+        id: "ua",
+        name: "Українська"
+    },
+    {
+        id: "id",
+        name: "Bahasa Indonesia"
     }
 ];
 
