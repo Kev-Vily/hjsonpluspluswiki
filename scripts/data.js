@@ -5,15 +5,19 @@ const LANGUAGES = [
     },
     {
         id: "ru",
-        name: "Русский"
+        name: "Russian"
     },
     {
         id: "be",
+<<<<<<< HEAD
         name: "Беларуская (Bielaruskaja)"
+=======
+        name: "Belarussian"
+>>>>>>> d64f947446cb7c7d77b574b97fae55d5ec4daa9c
     },
     {
         id: "ua",
-        name: "Українська"
+        name: "Ukrainian"
     },
     {
         id: "id",
