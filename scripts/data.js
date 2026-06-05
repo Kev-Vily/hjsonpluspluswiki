@@ -1,19 +1,19 @@
 const LANGUAGES = [
     {
         id: "en",
-        name: "English"
+        name: "Пендоская"
     },
     {
         id: "ru",
-        name: "Russian"
+        name: "Кацапская"
     },
     {
         id: "be",
-        name: "Belarusian (Bielaruskaja)"
+        name: "Беларуская (Bielaruskaja)"
     },
     {
         id: "ua",
-        name: "Ukrainian"
+        name: "Хохляцкая"
     },
     {
         id: "id",
