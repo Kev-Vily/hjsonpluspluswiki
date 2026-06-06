@@ -66,15 +66,6 @@ async function openClass(classId){
             `).join("")}
 
         </table>
-
-        
-        ${data.example != null ? `
-            <pre><code class="language-json">
-            ${data.example}
-            </code></pre>
-        ` : ""}
-        ${get(`class.${data.id}.subdescription`)!=null ? ` <p> ${get(`class.${data.id}.subdescription`)} </p>` : ""}
-        
     `;
 }
 
