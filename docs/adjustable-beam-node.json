@@ -1,0 +1,26 @@
+{
+    "id": "adjustable-beam-node",
+    "fields": [
+        {
+            "name": "beam-directions",
+            "type": "Integer[][]",
+            "note": "notes.beam-directions"
+        }
+    ],
+    "example": {
+        "type": "AdjustableBeamNode",
+        "health": 15,
+        "size": 1,
+        "beamDirections": [
+            [2, 1],
+            [2, -1],
+            [1, 2],
+            [-1, 2],
+            [-2, 1],
+            [-2, -1],
+            [1, -2],
+            [-1, -2]
+        ],
+        "category": "power"
+    }
+}

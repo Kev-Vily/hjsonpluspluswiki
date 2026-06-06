@@ -1,0 +1,10 @@
+{
+    "id": "chance-crafter",
+    "fields": [
+        {
+            "name": "produce-chance",
+            "type": "Float",
+            "note": "notes.produce-chance"
+        }
+    ]
+}

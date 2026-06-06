@@ -2,9 +2,9 @@
     "id": "generator-core-block",
     "fields": [
         {
-            "name": "powerProduction",
+            "name": "power-production",
             "type": "Float",
-            "note": "notes.powerProduction"
+            "note": "notes.power-production"
         }
     ]
 }

@@ -103,3 +103,15 @@ tr:nth-child(even){
 tr:hover{
     background: #303030;
 }
+
+pre{
+    background: #1e1e1e;
+    color: #fff;
+    padding: 12px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+code{
+    font-family: Consolas, monospace;
+}
