@@ -5,15 +5,15 @@ const LANGUAGES = [
     },
     {
         id: "ru",
-        name: "Русский"
+        name: "Р СѓСЃСЃРєРёР№"
     },
     {
         id: "be",
-        name: "Беларуская (Bielaruskaja)"
+        name: "Р‘РµР»Р°СЂСѓСЃРєР°СЏ (Bielaruskaja)"
     },
     {
         id: "ua",
-        name: "Українська"
+        name: "РЈРєСЂР°С—РЅСЃСЊРєР°"
     },
     {
         id: "id",

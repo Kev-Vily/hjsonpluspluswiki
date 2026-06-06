@@ -1,0 +1,10 @@
+{
+    "id": "generator-core-block",
+    "fields": [
+        {
+            "name": "powerProduction",
+            "type": "Float",
+            "note": "notes.powerProduction"
+        }
+    ]
+}
