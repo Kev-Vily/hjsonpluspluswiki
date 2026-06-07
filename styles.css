@@ -57,6 +57,7 @@ body{
 #languageSelect{
     padding: 8px 12px;
     margin-bottom: 20px;
+    align: top;
     background: #2d2d2d;
     color: white;
     border: 1px solid #555;
@@ -111,7 +112,7 @@ code{
 .topbar{
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: top;
     gap: 10px;
     padding: 15px 20px;
     border-bottom: 1px solid #333;
