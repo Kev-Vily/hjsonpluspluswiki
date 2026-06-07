@@ -7,35 +7,27 @@
 body{
     display: flex;
     height: 100vh;
-
     background: #1b1b1b;
     color: #ffffff;
-
     font-family: Arial, sans-serif;
 }
 
 .sidebar{
     width: 280px;
-
     background: #242424;
-
     border-right: 1px solid #3a3a3a;
-
     display: flex;
     flex-direction: column;
 }
 
 .sidebar h2{
     padding: 16px;
-
     border-bottom: 1px solid #3a3a3a;
 }
 
 .class-item{
     padding: 12px 16px;
-
     cursor: pointer;
-
     transition: 0.15s;
 }
 
@@ -49,20 +41,15 @@ body{
 
 .content{
     flex: 1;
-
     padding: 24px;
-
     overflow-y: auto;
 }
 
 #languageSelect{
     padding: 8px 12px;
-
     margin-bottom: 20px;
-
     background: #2d2d2d;
     color: white;
-
     border: 1px solid #555;
 }
 
@@ -77,18 +64,14 @@ p{
 
 table{
     width: 100%;
-
     border-collapse: collapse;
-
     margin-top: 15px;
 }
 
 th,
 td{
     border: 1px solid #444;
-
     padding: 10px;
-
     text-align: left;
 }
 
@@ -114,4 +97,33 @@ pre{
 
 code{
     font-family: Consolas, monospace;
+}
+
+.topbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#homeButton{
+    padding: 8px 16px;
+    cursor: pointer;
+    background: #2d2d2d;
+    color: white;
+    border: 1px solid #555;
+}
+
+#homeButton:hover{
+    background: #3a3a3a;
+}
+
+#classSearch{
+    width: calc(100% - 20px);
+    margin: 10px;
+    padding: 8px;
+    background: #2d2d2d;
+    color: white;
+    border: 1px solid #555;
 }

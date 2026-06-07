@@ -83,35 +83,57 @@ function createSidebar(){
 
     list.innerHTML = "";
 
-    const home =
-        document.createElement("div");
+    const search =
+        document.createElement("input");
 
-    home.className = "class-item";
-    home.textContent = get("home.sidebar");
+    search.type = "text";
+    search.id = "classSearch";
 
-    home.onclick = () => {
+    search.placeholder =
+        get("search.placeholder");
 
-        currentClass = null;
-        renderHome();
-    };
+    list.appendChild(search);
 
-    list.appendChild(home);
+    function updateClassList(filter = ""){
 
-    CLASSES.forEach(classId => {
+        list
+            .querySelectorAll(".class-entry")
+            .forEach(e => e.remove());
 
-        const button =
-            document.createElement("div");
+        CLASSES.forEach(classId => {
 
-        button.className = "class-item";
+            const name =
+                get(`class.${classId}.name`);
 
-        button.textContent =
-            get(`class.${classId}.name`);
+            if(
+                !name
+                    .toLowerCase()
+                    .includes(filter.toLowerCase())
+            ){
+                return;
+            }
 
-        button.onclick =
-            () => openClass(classId);
+            const button =
+                document.createElement("div");
 
-        list.appendChild(button);
-    });
+            button.className =
+                "class-item class-entry";
+
+            button.textContent = name;
+
+            button.onclick =
+                () => openClass(classId);
+
+            list.appendChild(button);
+        });
+    }
+
+    search.addEventListener(
+        "input",
+        () => updateClassList(search.value)
+    );
+
+    updateClassList();
 }
 
 async function reloadLanguage(){
@@ -139,6 +161,11 @@ languageSelect.addEventListener(
     "change",
     reloadLanguage
 );
+
+document.getElementById("homeButton").addEventListener("click", () => {
+        currentClass = null;
+        renderHome();
+    });
 
 createLanguageSelector();
 reloadLanguage();
