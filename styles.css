@@ -56,8 +56,7 @@ body{
 
 #languageSelect{
     padding: 8px 12px;
-    margin-bottom: 20px;
-    box-align: top;
+    margin-top: 20px;
     background: #2d2d2d;
     color: white;
     border: 1px solid #555;
@@ -115,7 +114,7 @@ code{
     align-items: center;
     gap: 10px;
     padding: 15px 20px;
-    border-bottom: 1px solid #333;
+    border-top: 1px solid #333;
     background: #202020;
 }
 
