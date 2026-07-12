@@ -22,11 +22,9 @@ const LANGUAGES = [
 ];
 
 const CLASSES = [
-    "test",
-
     // region blocks
     // turrets
-    "accel-item-turret","mode-turret","over-heat-turret",
+    "accel-item-turret","mode-turret","overheat-turret",
 
     // drills
     "wall-drill",
