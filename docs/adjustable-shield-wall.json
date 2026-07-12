@@ -1,0 +1,10 @@
+{
+    "id": "adjustable-shield-wall",
+    "fields": [
+        {
+            "name": "radius",
+            "type": "Float",
+            "note": "notes.radius"
+        }
+    ]
+}
