@@ -22,6 +22,11 @@
             "note": "notes.cooldown-threshold"
         },
         {
+            "name": "temperature-per-shot",
+            "type": "Float",
+            "note": "notes.temperature-per-shot"
+        },
+        {
             "name": "cooldown-speed",
             "type": "Float",
             "note": "notes.cooldown-speed"
@@ -45,6 +50,11 @@
             "name": "shoot-penalty",
             "type": "Float",
             "note": "notes.shoot-penalty"
+        },
+        {
+            "name": "melting-damage",
+            "type": "Float",
+            "note": "notes.melting-damage"
         },
         {
             "name": "melting-threshold",

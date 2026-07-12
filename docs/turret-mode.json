@@ -1,0 +1,85 @@
+{
+    "id": "turret-mode",
+    "fields": [
+        {
+            "name": "mode-ammo-types",
+            "type": "ObjectMap<Item, BulletType>",
+            "note": "notes.mode-ammo-types"
+        },
+        {
+            "name": "description",
+            "type": "String",
+            "note": "notes.description"
+        },
+        {
+            "name": "basic-stats",
+            "type": "Boolean",
+            "note": "notes.basic-stats"
+        },
+        {
+            "name": "path",
+            "type": "String",
+            "note": "notes.path"
+        },
+        {
+            "name": "name",
+            "type": "String",
+            "note": "notes.name"
+        },
+        {
+            "name": "bar-color",
+            "type": "Color",
+            "note": "notes.bar-color"
+        },
+        {
+            "name": "accuracy-multiplier",
+            "type": "Float",
+            "note": "notes.accuracy-multiplier"
+        },
+        {
+            "name": "reload-multiplier",
+            "type": "Float",
+            "note": "notes.reload-multiplier"
+        },
+        {
+            "name": "rotate-speed-multiplier",
+            "type": "Float",
+            "note": "notes.rotate-speed-multiplier"
+        },
+        {
+            "name": "range-change",
+            "type": "Float",
+            "note": "notes.range-change"
+        },
+        {
+            "name": "target-interval-multiplier",
+            "type": "Float",
+            "note": "notes.target-interval-multiplier"
+        },
+        {
+            "name": "ammo-use-multiplier",
+            "type": "Float",
+            "note": "notes.ammo-use-multiplier"
+        },
+        {
+            "name": "ammo-use-change",
+            "type": "Integer",
+            "note": "notes.ammo-use-change"
+        },
+        {
+            "name": "mode-sound",
+            "type": "Sound",
+            "note": "notes.mode-sound"
+        },
+        {
+            "name": "mode-pattern",
+            "type": "Sound",
+            "note": "notes.mode-pattern"
+        },
+        {
+            "name": "mode-icon",
+            "type": "TextureRegion",
+            "note": "notes.mode-icon"
+        }
+    ]
+}

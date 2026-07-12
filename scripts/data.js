@@ -24,7 +24,7 @@ const LANGUAGES = [
 const CLASSES = [
     // region blocks
     // turrets
-    "accel-item-turret","mode-turret","overheat-turret",
+    "accel-item-turret","mode-turret","overheat-turret","turret-mode",
 
     // drills
     "wall-drill",
@@ -41,11 +41,11 @@ const CLASSES = [
     // storage
     "advanced-core-block","generator-core-block",
 
-    // world processor
-    "text-dialog","content-unlocker",
+    // environment
+    "tiled-floor",
 
     // other
-    "black-hole-bullet-type","tiled-floor","draw-team",
+    "black-hole-bullet-type","advanced-artillery-bullet-type",
 
     // units
     "overload-ability","effect-weapon"

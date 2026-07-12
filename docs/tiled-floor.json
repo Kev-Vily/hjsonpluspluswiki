@@ -1,0 +1,20 @@
+{
+    "id": "tiled-floor",
+    "fields": [
+        {
+            "name": "tiling-variants",
+            "type": "Integer",
+            "note": "notes.tiling-variants"
+        },
+        {
+            "name": "tiling-regions",
+            "type": "TextureRegion",
+            "note": "notes.tiling-regions"
+        },
+        {
+            "name": "tiling-size",
+            "type": "Integer",
+            "note": "notes.tiling-size"
+        }
+    ]
+}

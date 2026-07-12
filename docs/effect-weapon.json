@@ -1,0 +1,30 @@
+{
+    "id": "effect-weapon",
+    "fields": [
+        {
+            "name": "effect",
+            "type": "Effect",
+            "note": "notes.effect"
+        },
+        {
+            "name": "effect-interval",
+            "type": "Float",
+            "note": "notes.effect-interval"
+        },
+        {
+            "name": "effect-x",
+            "type": "Float",
+            "note": "notes.effect-x"
+        },
+        {
+            "name": "effect-y",
+            "type": "Float",
+            "note": "notes.effect-y"
+        },
+        {
+            "name": "effect-chance",
+            "type": "Float",
+            "note": "notes.effect-chance"
+        }
+    ]
+}

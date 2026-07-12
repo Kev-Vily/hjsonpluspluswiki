@@ -2,9 +2,9 @@
     "id": "adjustable-shield-wall",
     "fields": [
         {
-            "name": "radius",
+            "name": "shield-radius",
             "type": "Float",
-            "note": "notes.radius"
+            "note": "notes.shield-radius"
         }
     ]
 }
