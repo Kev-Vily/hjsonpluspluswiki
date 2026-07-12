@@ -143,31 +143,59 @@ code{
     background: #1f1f1f;
     color: white;
 }
+#menuButton {
+    display: none;
+}
 
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-    }
+@media (max-width: 768px){
 
-    .sidebar {
+    #menuButton{
+        display: block;
         width: 100%;
-        border-right: none;
-        border-bottom: 1px solid #3a3a3a;
+        padding: 15px;
+        background:#242424;
+        color:white;
+        border:none;
+        border-bottom:1px solid #3a3a3a;
+        font-size:18px;
+        cursor:pointer;
+        text-align:left;
     }
 
-    .content {
-        width: 100%;
-        padding: 20px;
+    .container{
+        display:block;
     }
 
-    .topbar {
-        justify-content: space-between;
-        flex-wrap: wrap;
+    .sidebar{
+        position:fixed;
+        top:0;
+        left:-320px;
+        width:300px;
+        height:100%;
+        background:#242424;
+        transition:left .25s;
+        z-index:1000;
+        overflow-y:auto;
+        border-right:1px solid #3a3a3a;
     }
 
-    #languageSelect {
-        flex: 1;
-        margin-top: 0;
-        margin-left: 10px;
+    .sidebar.open{
+        left:0;
+    }
+
+    .content{
+        width:100%;
+        padding:20px;
+    }
+    .overlay{
+        display:none;
+        position:fixed;
+        inset:0;
+        background:rgba(0,0,0,.5);
+        z-index:999;
+    }
+
+    .overlay.show{
+        display:block;
     }
 }
