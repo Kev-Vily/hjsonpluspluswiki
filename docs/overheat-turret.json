@@ -1,0 +1,65 @@
+{
+    "id": "overheat-turret",
+    "fields": [
+        {
+            "name": "start-temperature",
+            "type": "Float",
+            "note": "notes.start-temperature"
+        },
+        {
+            "name": "overheat-temperature",
+            "type": "Float",
+            "note": "notes.overheat-temperature"
+        },
+        {
+            "name": "melting-temperature",
+            "type": "Float",
+            "note": "notes.melting-temperature"
+        },
+        {
+            "name": "cooldown-threshold",
+            "type": "Float",
+            "note": "notes.cooldown-threshold"
+        },
+        {
+            "name": "cooldown-speed",
+            "type": "Float",
+            "note": "notes.cooldown-speed"
+        },
+        {
+            "name": "overheat-cooldown-speed",
+            "type": "Float",
+            "note": "notes.overheat-cooldown-speed"
+        },
+        {
+            "name": "cooldown",
+            "type": "Boolean",
+            "note": "notes.cooldown"
+        },
+        {
+            "name": "melting",
+            "type": "Boolean",
+            "note": "notes.melting"
+        },
+        {
+            "name": "shoot-penalty",
+            "type": "Float",
+            "note": "notes.shoot-penalty"
+        },
+        {
+            "name": "melting-threshold",
+            "type": "Float",
+            "note": "notes.melting-threshold"
+        },
+        {
+            "name": "coolant-cooldown-efficiency",
+            "type": "Float",
+            "note": "notes.coolant-cooldown-efficiency"
+        },
+        {
+            "name": "coolant-efficiency-depends",
+            "type": "Boolean",
+            "note": "notes.coolant-efficiency-depends"
+        }
+    ]
+}
