@@ -1,0 +1,40 @@
+{
+    "id": "restorable-wall",
+    "fields": [
+        {
+            "name": "continuous",
+            "type": "Boolean",
+            "note": "notes.continuous"
+        },
+        {
+            "name": "heal-reload",
+            "type": "Float",
+            "note": "notes.heal-reload"
+        },
+        {
+            "name": "heal-percent",
+            "type": "Float",
+            "note": "notes.heal-percent"
+        },
+        {
+            "name": "heal-amount",
+            "type": "Float",
+            "note": "notes.heal-amount"
+        },
+        {
+            "name": "heal-effect",
+            "type": "Float",
+            "note": "notes.heal-effect"
+        },
+        {
+            "name": "heal-color",
+            "type": "Float",
+            "note": "notes.heal-color"
+        },
+        {
+            "name": "effect-interval",
+            "type": "Float",
+            "note": "notes.effect-interval"
+        }
+    ]
+}
