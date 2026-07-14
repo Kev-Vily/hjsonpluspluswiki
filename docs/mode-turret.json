@@ -2,21 +2,6 @@
     "id": "mode-turret",
     "fields": [
         {
-            "name": "default-icon",
-            "type": "TextureRegion",
-            "note": "notes.default-icon"
-        },
-        {
-            "name": "default-mode",
-            "type": "TurretMode",
-            "note": "notes.default-mode"
-        },
-        {
-            "name": "turret-modes",
-            "type": "Sequence<TurretMode>",
-            "note": "notes.turret-modes"
-        },
-        {
             "name": "turret-modes",
             "type": "Sequence<TurretMode>",
             "note": "notes.turret-modes"
